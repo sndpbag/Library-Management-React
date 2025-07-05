@@ -57,9 +57,9 @@ Before running this application, make sure you have the following installed:
 ### Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/library-management-system.git
-   cd library-management-system
+   ```bashgit
+   git clone https://github.com/sndpbag/Library-Management-React.git
+   cd Library-Management-React
    ```
 
 2. **Install dependencies**
@@ -84,7 +84,7 @@ Before running this application, make sure you have the following installed:
 
 5. **Open your browser**
    ```
-   http://localhost:3000
+  http://localhost:5173/
    ```
 
 ## 📱 Application Structure
@@ -186,7 +186,7 @@ interface BorrowRecord {
 In the project directory, you can run:
 
 ### `npm start`
-Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in development mode. Open [http://localhost:5173](http://localhost:5173/) to view it in the browser.
 
 ### `npm run build`
 Builds the app for production to the `build` folder.
@@ -296,7 +296,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Your Name** - *Initial work* - [YourGitHub](https://github.com/sndpbag)
 
 ## 🙏 Acknowledgments
 
@@ -310,7 +310,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help with setup, please:
 
-1. Check the [Issues](https://github.com/yourusername/library-management-system/issues) page
+1. Check the [Issues](https://github.com/sndpbag/Library-Management-React/issues) page
 2. Create a new issue with detailed description
 3. Contact: your.email@example.com
 
@@ -328,9 +328,9 @@ If this project helped you, please consider:
 <div align="center">
   <p>Made with ❤️ by <strong>Your Name</strong></p>
   <p>
-    <a href="https://github.com/yourusername">GitHub</a> •
-    <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> •
-    <a href="https://twitter.com/yourhandle">Twitter</a>
+    <a href="https://github.com/sndpbag">GitHub</a> •
+    <a href="https://linkedin.com/in/sndpbag">LinkedIn</a> •
+    <a href="https://twitter.com/sndpbag">Twitter</a>
   </p>
 </div>
 
