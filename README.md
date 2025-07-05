@@ -89,28 +89,29 @@ Before running this application, make sure you have the following installed:
 
 ## 📱 Application Structure
 
-```
+ 
+
+```text
 src/
 ├── components/
-│   ├── BookForm.tsx       # Book creation/editing form
-│   ├── BorrowForm.tsx     # Book borrowing form
-│   ├── BooksList.tsx      # Books listing with table
-│   ├── BookDetails.tsx    # Individual book details
-│   ├── BorrowSummary.tsx  # Borrowing statistics
-│   ├── Loading.tsx        # Loading spinner component
-│   ├── ErrorMessage.tsx   # Error display component
-│   ├── Toast.tsx          # Notification component
-│   ├── Navbar.tsx         # Navigation bar
-│   └── Footer.tsx         # Footer component
+│   ├── BookForm.tsx          # Book creation/editing form
+│   ├── BorrowForm.tsx        # Book borrowing form
+│   ├── BooksList.tsx         # Books listing with table
+│   ├── BookDetails.tsx       # Individual book details
+│   ├── BorrowSummary.tsx     # Borrowing statistics
+│   ├── Loading.tsx           # Loading spinner component
+│   ├── ErrorMessage.tsx      # Error display component
+│   ├── Toast.tsx             # Notification component
+│   ├── Navbar.tsx            # Navigation bar
+│   └── Footer.tsx            # Footer component
 ├── store/
-│   ├── api.ts            # RTK Query API slice
-│   └── store.ts          # Redux store configuration
+│   ├── api.ts                # RTK Query API slice
+│   └── store.ts              # Redux store configuration
 ├── types/
-│   └── index.ts          # TypeScript type definitions
+│   └── index.ts              # TypeScript type definitions
 ├── utils/
-│   └── constants.ts      # Application constants
-└── App.tsx               # Main application component
-```
+│   └── constants.ts          # Application constants
+└── App.tsx                   # Main application component
 
 ## 🔧 API Integration
 
