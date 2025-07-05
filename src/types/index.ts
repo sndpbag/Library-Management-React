@@ -10,12 +10,12 @@
 // }
 
 export const Genre = {
-  FICTION: 'fiction',
-  NON_FICTION: 'non-fiction',
-  SCIENCE: 'science', 
-  HISTORY: 'history',
-  BIOGRAPHY: 'biography',
-  FANTASY: 'fantasy'
+  FICTION: 'FICTION',
+  NON_FICTION: 'NON_FICTION',
+  SCIENCE: 'SCIENCE', 
+  HISTORY: 'HISTORY',
+  BIOGRAPHY: 'BIOGRAPHY',
+  FANTASY: 'FANTASY'
 } as const;
 
 export type Genre = typeof Genre[keyof typeof Genre];
