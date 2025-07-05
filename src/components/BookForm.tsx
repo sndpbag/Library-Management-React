@@ -1,6 +1,7 @@
 // components/BookForm.tsx
 import React, { useState } from 'react';
-import { Book, CreateBookData, Genre } from '../types';
+import { Genre, type Book, type CreateBookData } from '../types';
+// import { Book, CreateBookData, Genre } from '../types';
 
 interface BookFormProps {
   book?: Book;

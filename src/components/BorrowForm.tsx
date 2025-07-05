@@ -1,6 +1,7 @@
 // components/BorrowForm.tsx
 import React, { useState } from 'react';
-import { Book, BorrowBookData } from '../types';
+import type { Book, BorrowBookData } from '../types';
+// import { Book, BorrowBookData } from '../types';
 
 interface BorrowFormProps {
   book: Book;

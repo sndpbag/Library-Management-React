@@ -1,6 +1,7 @@
 // store/api.ts
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import { Book, BorrowRecord, BorrowSummary, CreateBookData, BorrowBookData } from '../types';
+// import {  BorrowRecord, BorrowSummary, CreateBookData, BorrowBookData } from '../types';
+import {  type Book, type BorrowBookData, type BorrowRecord, type BorrowSummary, type CreateBookData } from '../types/index';
 
 export const api = createApi({
   reducerPath: 'api',
