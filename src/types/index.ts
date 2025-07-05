@@ -1,13 +1,24 @@
  
  
-export enum Genre {
-  FICTION = 'FICTION',
-  NON_FICTION = 'NON_FICTION',
-  SCIENCE = 'SCIENCE',
-  HISTORY = 'HISTORY',
-  BIOGRAPHY = 'BIOGRAPHY',
-  FANTASY = 'FANTASY'
-}
+// export enum Genre {
+//   FICTION = 'FICTION',
+//   NON_FICTION = 'NON_FICTION',
+//   SCIENCE = 'SCIENCE',
+//   HISTORY = 'HISTORY',
+//   BIOGRAPHY = 'BIOGRAPHY',
+//   FANTASY = 'FANTASY'
+// }
+
+export const Genre = {
+  FICTION: 'fiction',
+  NON_FICTION: 'non-fiction',
+  SCIENCE: 'science', 
+  HISTORY: 'history',
+  BIOGRAPHY: 'biography',
+  FANTASY: 'fantasy'
+} as const;
+
+export type Genre = typeof Genre[keyof typeof Genre];
 
 export interface Book {
   _id: string;

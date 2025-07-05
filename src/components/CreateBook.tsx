@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCreateBookMutation } from '../store/api';
 // import { CreateBookData } from '../types';
@@ -20,7 +20,7 @@ const CreateBook = () => {
     try {
       await createBook(data).unwrap();
       showToast('Book created successfully!', 'success');
-      setTimeout(() => { navigate('/books'); }, 2000);
+      setTimeout(() => { navigate('/books') }, 2000);
     } catch (error) {
       console.error('Error creating book:', error);
       showToast('Failed to create book. Please try again.', 'error');

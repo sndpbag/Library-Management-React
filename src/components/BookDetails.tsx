@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useParams, Link } from 'react-router-dom';
 import { Edit, BookOpen } from 'lucide-react';
 import { useGetBookQuery } from '../store/api';
