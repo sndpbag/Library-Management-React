@@ -1,5 +1,4 @@
-// components/Toast.tsx
-import React from 'react';
+
 import { Check, X } from 'lucide-react';
 
 interface ToastProps {
